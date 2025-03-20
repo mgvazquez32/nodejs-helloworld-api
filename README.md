@@ -26,6 +26,6 @@ npm start
 
 ### Make a request
 ```bash
-curl http://localhost:3000
+curl http://localhost:4040
 ```
 # test job
