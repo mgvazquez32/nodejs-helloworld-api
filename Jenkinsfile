@@ -6,14 +6,14 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "EJECUTAR NPM INSTALL PERRO" 
+                echo "EJECUTAR NPM INSTALL" 
                 sh 'npm install'
             }
         }
 
         stage('Test') {
             steps {
-                echo "Ejecutar npm test push PERRI" 
+                echo "EJECUTAR NPM TEST PUSH" 
                 sh 'npm test'
             }
         }
