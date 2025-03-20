@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Ejecutar npm install PERRO" 
+                echo "EJECUTAR NPM INSTALL PERRO" 
                 sh 'npm install'
             }
         }
